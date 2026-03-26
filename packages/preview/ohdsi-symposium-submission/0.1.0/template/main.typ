@@ -4,15 +4,15 @@
   title: "OHDSI Symposium Submission Title",
   authors: (
     (
-      name: "First Author",
+      name: "FIRST AUTHOR",
       affiliations: ("1",),
     ),
     (
-      name: "Second Author",
+      name: "SECOND AUTHOR",
       affiliations: ("1", "2"),
     ),
     (
-      name: "Third Author",
+      name: "THIRD AUTHOR",
       affiliations: ("2",),
     ),
   ),

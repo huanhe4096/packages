@@ -52,14 +52,11 @@
 
       #v(0.5em)
 
-      #for (index, author) in authors.enumerate() [
-        #author.name#if show-affiliation-markers and "affiliations" in author [#super[#author.affiliations.join(",")]]
-        #if index < authors.len() - 1 [, ]
-      ]
+      #set text(weight: "bold")
+      #for (index, author) in authors.enumerate() [#author.name#if show-affiliation-markers and "affiliations" in author [#super[#author.affiliations.join(",")]]#if index < authors.len() - 1 [, ]]
 
       #if affiliations.len() > 0 [
-        #v(0.5em)
-        #set text(size: 10pt)
+        #set text(size: 10pt, weight: "bold")
         #for affiliation in affiliations [
           #if show-affiliation-markers [#super[#affiliation.id] ]
           #affiliation.name
