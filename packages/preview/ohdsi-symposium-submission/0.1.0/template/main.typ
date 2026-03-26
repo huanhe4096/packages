@@ -35,11 +35,11 @@ Use this section to summarize the scientific background, explain the gap your
 work addresses, and clarify why the topic matters to the OHDSI community. This
 submission should describe unpublished work at the time of submission, although
 preprints are acceptable. Cite relevant prior OHDSI or domain work directly in
-the text, such as @hripcsak2015 and @reps2018.
+the text. @hripcsak2015 @reps2018
 
 This brief report should stay between 200 and 1000 words, excluding references,
 authors, affiliations, and optional figures or tables. Community resources can
-also be cited when useful, for example @ohdsi2024.
+also be cited when useful. @ohdsi2024
 
 = Methods
 
@@ -61,5 +61,5 @@ next step or expected impact of the work. References are recommended, with a
 practical target of no more than 15 citations.
 
 #references-section[
-  #bibliography("refs.bib", title: none, style: "elsevier-vancouver")
+  #bibliography("refs.bib", title: none, style: "vancouver-superscript")
 ]

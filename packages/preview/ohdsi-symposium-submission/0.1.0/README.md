@@ -43,7 +43,7 @@ Render the bibliography with:
 
 ```typst
 #references-section[
-  #bibliography("refs.bib", title: none, style: "elsevier-vancouver")
+  #bibliography("refs.bib", title: none, style: "vancouver-superscript")
 ]
 ```
 
@@ -51,8 +51,9 @@ Render the bibliography with:
 
 - The template uses an OHDSI-style paper layout with serif typography, single-ish
   line spacing, and `6pt` paragraph spacing after each paragraph.
-- The sample starter uses the `elsevier-vancouver` bibliography style to align
-  with OHDSI's recommendation for a Vancouver-style reference format.
+- The sample starter uses the `vancouver-superscript` bibliography style so
+  in-text citations render as superscript numbers and the reference list uses
+  `1.`, `2.`, `3.` numbering.
 - The template uses `Libertinus Serif` by default for reliable cross-platform
   rendering. You can override the font in your project if you need exact
   institution-specific typography.
