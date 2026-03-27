@@ -2,6 +2,7 @@
 name = "ohdsi-symposium-submission"
 version = "0.1.0"
 entrypoint = "lib.typ"
+description = "Brief reports for the OHDSI symposium."
 repository = "https://github.com/huanhe4096/packages"
 keywords = ["ohdsi", "symposium", "submission", "template", "paper"]
 categories = ["paper", "report"]
