@@ -30,8 +30,8 @@
 
   set par(
     justify: true,
-    leading: 3pt,
-    spacing: 6pt,
+    leading: 0.4em,
+    spacing: 0.8em,
   )
 
   show heading.where(level: 1): it => {
