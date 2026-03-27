@@ -2,10 +2,6 @@
 name = "ohdsi-symposium-submission"
 version = "0.1.0"
 entrypoint = "lib.typ"
-authors = ["Huan He"]
-license = "MIT"
-description = "A minimal submission template for OHDSI symposium brief reports."
-homepage = "https://github.com/huanhe4096/packages/tree/main/packages/preview/ohdsi-symposium-submission/0.1.0"
 repository = "https://github.com/huanhe4096/packages"
 keywords = ["ohdsi", "symposium", "submission", "template", "paper"]
 categories = ["paper", "report"]
